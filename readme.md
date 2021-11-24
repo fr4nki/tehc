@@ -4,8 +4,8 @@
 
 ---
 
-- [Общие вопросы]('./questions/coding)
-- [JavaScript]('./questions/js)
-- [React]('./questions/react)
-- [Системный дизайн]('./questions/sys_design)
-- [Софт-скиллы]('./questions/softskills)
+- [Общие вопросы](./questions/coding)
+- [JavaScript](./questions/js)
+- [React](./questions/react)
+- [Системный дизайн](./questions/sys_design)
+- [Софт-скиллы](./questions/softskills)
