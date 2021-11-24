@@ -1,5 +1,6 @@
-// Что выведет?
+### Что выведет и почему?
 
+```js
 console.log(1);
 
 setTimeout(() => console.log(2), 0);
@@ -19,3 +20,4 @@ Promise.resolve().then(() => {
 setTimeout(() => console.log(7));
 
 console.log(8);
+```js

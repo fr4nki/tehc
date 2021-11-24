@@ -1,5 +1,6 @@
-// Что выведет?
+### Что выведет? и как исправить?
 
+```js
 const arr = [20, 40, 30, 15];
 
 for (var i = 0; i < arr.length; i++) {
@@ -7,5 +8,4 @@ for (var i = 0; i < arr.length; i++) {
         console.log('Index: ' + i + ', element: ' + arr[i]);
     }, 3000);
 }
-
-// Как исправить?
+```js

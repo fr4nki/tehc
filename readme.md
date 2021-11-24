@@ -4,8 +4,11 @@
 
 ---
 
-- [Общие вопросы]('./questions/coding)
+- Общие вопросы [раз]('./questions/coding) и [два]('./questions/common)
+- [CSS]('./questions/css)
+- [HTML]('./questions/html)
 - [JavaScript]('./questions/js)
 - [React]('./questions/react)
+- [TypeScript]('./questions/typescript)
 - [Системный дизайн]('./questions/sys_design)
 - [Софт-скиллы]('./questions/softskills)
