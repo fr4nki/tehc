@@ -1,9 +1,8 @@
-### Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+### Дана строка s которая содержит только символы '(', ')', '{', '}', '[' и ']', определить является ли строка валидной.
 
-An input string is valid if:
-
-Open brackets must be closed by the same type of brackets.
-Open brackets must be closed in the correct order.
+Строка валидна если:
+- Открытые скобки должны закрываться скобками того же типа.
+- Открытые скобки должны закрываться в правильном порядке.
 
 Input: s = "()"
 Output: true

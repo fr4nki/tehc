@@ -1,17 +1,17 @@
-1. What are the advantages of using React?
-2. What is JSX?
-3. What are the differences between functional and class components?
-4. What is the virtual DOM? How does react use the virtual DOM to render the UI?
-5. What are the differences between controlled and uncontrolled components?
-6. What are the different lifecycle methods in React?
-7. Explain Strict Mode in React.
-8. How to prevent re-renders in React?
-9. Explain React state and props.
-10. Explain React Hooks.
-11. What are the different ways to style a React component?
-12. Name a few techniques to optimize React app performance.
-13. What are keys in React?
-14. How to pass data between react components?
-15. What are Higher Order Components?
-16. What is prop drilling in React?
-17. What are error boundaries?
+1. В чём приемущество React?
+2. Что такое JSX?
+3. В чём разница между `functional` и `class` компонентами?
+4. Что такое `virtual DOM`? Как react использует `virtual DOM` для рендера `UI`?
+5. В чём разница между `controlled` и `uncontrolled` компонентами?
+6. Какие `lifecycle` методы есть в React?
+7. Объясни про `Strict Mode` в React.
+8. Как избавиться от лишних ре-рендеров в React?
+9. Что такое `state` и `props`?
+10. Что такое `Hooks`?
+11. Какие знаешь способы стилизовать React компоненты?
+12. Какие способы оптимизаций перфоманса React приложений знаешь?
+13. Что такое `key` в React?
+14. Как прокинуть данные через `react` компоненты?
+15. Что такое `HOC`?
+16. Что такое `prop drilling`?
+17. Что такое `error boundaries`?
