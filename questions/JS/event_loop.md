@@ -20,4 +20,4 @@ Promise.resolve().then(() => {
 setTimeout(() => console.log(7));
 
 console.log(8);
-```js
+```
