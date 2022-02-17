@@ -1,8 +1,8 @@
 # JavaScript
 
 ## Задачи
-- [Замыкания]('./closures.md)
-- [Event loop]('./event_loop.md)
+- [Замыкания](./closures.md)
+- [Event loop](./event_loop.md)
 
 ---
 
