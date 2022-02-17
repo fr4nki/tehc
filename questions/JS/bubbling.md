@@ -3,7 +3,7 @@
 ```html
 <div id="a">
     <div id="b">
-         <div id="c"></div>
+         <div id="c">Клик всегда здесь</div>
      </div>
 </div>
 ```
@@ -22,26 +22,21 @@
 что будет в консоли?
 
 ---
+1.
 ```js
 a.addEventListener("click", log("A"));
 b.addEventListener("click", log("B"));
 c.addEventListener("click", log("C"));
 ```
-
-_Ответ: C B A_
-
 ---
-
+2.
 ```js
 a.addEventListener("click", log("A"), true);
 b.addEventListener("click", log("B"));
 c.addEventListener("click", log("C"), true);
 ```
-
-_Ответ: A C B_
-
 ---
-
+3.
 ```js
 a.addEventListener("click", log("A"), true);
 b.addEventListener("click", log("B1"), false);
@@ -49,10 +44,8 @@ b.addEventListener("click", log("B2"), true);
 b.addEventListener("click", log("B3"), false);
 c.addEventListener("click", log("C"), true);
 ```
-
-_Ответ: A B2 C B1 B3_
-
 ---
+4.
 ```js
   a.addEventListener("click", log("A"), true);
   b.addEventListener(
@@ -67,10 +60,8 @@ _Ответ: A B2 C B1 B3_
   b.addEventListener("click", log("B3"), false);
   c.addEventListener("click", log("C"), true);
 ```
-
-_Ответ: A B2 C B1 B3_
-
 ---
+5.
 ```js
   a.addEventListener("click", log("A"), true);
   b.addEventListener("click", log("B1"), false);
@@ -85,10 +76,8 @@ _Ответ: A B2 C B1 B3_
   b.addEventListener("click", log("B3"), false);
   c.addEventListener("click", log("C"), true);
 ```
-
-_Ответ: A B2_
-
 ---
+6.
 ```js
   a.addEventListener("click", log("A1"), true);
   a.addEventListener(
@@ -104,6 +93,3 @@ _Ответ: A B2_
   b.addEventListener("click", log("B2"), false);
   c.addEventListener("click", log("C"), true);
 ```
-
-_Ответ: A1 A2_
-
